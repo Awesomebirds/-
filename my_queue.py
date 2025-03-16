@@ -18,8 +18,7 @@ class Queue:
         self._rear: Item = None
     
     def is_empty(self):
-        if self._front == None: return True
-        else: return False
+        return self._fornt is None
     
     def enqueue(self, value): #Rear의 next에 value 추가 -> rear = value
         new_item = Item(value)

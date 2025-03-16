@@ -40,18 +40,3 @@ class Stack:
             print("The Stack is empty.")
         else:
             print(self._top.get_value())
-
-my_stack = Stack()
-my_stack.push("hello, world!")
-my_stack.push("hello, world!2")
-my_stack.push("hello, world!3")
-
-my_stack.peek()
-my_stack.pop()
-my_stack.peek()
-my_stack.pop()
-my_stack.peek()
-my_stack.pop()
-my_stack.pop()
-my_stack.peek()
-my_stack.pop()
